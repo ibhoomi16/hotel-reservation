@@ -1,0 +1,71 @@
+This project implements a hotel reservation system in C++, providing functionalities for managing clients, reservations, room information, and account settings.
+
+Features
+Client Management:
+
+Register new clients with their personal information.
+Manage client accounts, including login and password management.
+Reservation Management:
+
+Reserve different types of rooms with specific dates.
+View and manage reservations, including cancellation and modification.
+Room Information:
+
+Display detailed information about available room types and amenities.
+Sort room types based on price from highest to lowest.
+Account Settings:
+
+Update user information such as password, email, and contact number.
+Administrative Functions:
+
+Admin login to access administrative functionalities.
+View and manage all reservations and client accounts.
+Algorithms and C++ Concepts Used
+1. Algorithms
+Sorting:
+Implemented sorting algorithms to arrange room types by price in descending order (std::sort).
+2. C++ Concepts
+Classes and Objects:
+
+Utilized classes (Account, HotelReservationSystem) to encapsulate data and operations related to clients, reservations, and system functionalities.
+Implemented object-oriented principles for modularity and reusability.
+Pointers and Dynamic Memory Allocation:
+
+Managed dynamic memory allocation for storing reservations using linked list structures (Node).
+File Handling:
+
+Read and write operations for storing client credentials and reservation data using file streams (ifstream, ofstream).
+String Manipulation:
+
+Manipulated strings (std::string) for managing user inputs, passwords, and email addresses.
+Control Structures:
+
+Implemented control structures (if, switch, while, for) for flow control and decision making throughout the program.
+Function Overloading and Encapsulation:
+
+Overloaded functions within classes (Account) to handle different parameters and functionalities related to user account management.
+Standard Template Library (STL):
+
+Used STL containers (std::vector) for managing room availability and other dynamic data structures.
+Example
+cpp
+Copy code
+#include "HRS.hpp"
+#include "ACCOUNT_HPP"
+#include "Sorted_roomprice.hpp"
+#include "RESERVATIONSYSTEM_HPP"
+#include "ACCOUNT_SETTING_HPP"
+
+int main() {
+    // Initialize system and handle user interactions
+    // Example: Add reservations, manage client accounts, etc.
+    return 0;
+}
+Usage
+Setup
+Clone the repository to your local machine.
+Compile the program using a C++ compiler (e.g., g++, Visual Studio).
+Running the Program
+Execute the compiled binary (e.g., ./hotel_reservation_system).
+Contributing
+Contributions, bug reports, and feature requests are welcome. Please submit issues or pull requests through GitHub.
